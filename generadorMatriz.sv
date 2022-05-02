@@ -15,6 +15,8 @@ module generadorMatriz #(parameter ancho=5)
 	logic color_seleccion;
 	logic color_xy;
 	reg[15:0] selected;
+	
+
 
 	logic [0:9] stepx;
 	logic [0:9] stepy;
@@ -34,6 +36,23 @@ module generadorMatriz #(parameter ancho=5)
 		color_seleccion = 0;
 		color_xy = 0;
 		
+		selected[0]  = OpenCards[0][0];
+		selected[1]  = OpenCards[0][1];
+		selected[2]  = OpenCards[0][2];
+		selected[3]  = OpenCards[0][3];
+		selected[4]  = OpenCards[1][0];
+		selected[5]  = OpenCards[1][1];
+		selected[6]  = OpenCards[1][2];
+		selected[7]  = OpenCards[1][3];
+		selected[8]  = OpenCards[2][0];
+		selected[9]  = OpenCards[2][1];
+		selected[10] = OpenCards[2][2];
+		selected[11] = OpenCards[2][3];
+		selected[12] = OpenCards[3][0];
+		selected[13] = OpenCards[3][1];
+		selected[14] = OpenCards[3][2];
+		selected[15] = OpenCards[3][3];
+		
 		stepx = (10'd640 - ancho)/4;
 		stepy = (10'd480 - ancho)/4;
 		x0 = stepx/2+ancho/2;
@@ -49,24 +68,21 @@ module generadorMatriz #(parameter ancho=5)
 					|| (x + stepx/2 + ancho/2 > x0  && x < x0 + stepx/2 + ancho/2 && y + ancho/2 > y0 + stepy/2 && y < y0 + stepy/2 + ancho/2)
 					|| (y + stepy/2 + ancho/2 > y0  && y < y0 + stepy/2 + ancho/2 && x + stepx/2 + ancho/2 > x0 && x + stepx/2   < x0 + ancho/2)
 					|| (y + stepy/2 + ancho/2 > y0  && y < y0 + stepy/2 + ancho/2 && x > x0 - ancho/2 + stepx/2 && x < x0 + stepx/2 + ancho/2)) begin 
-					if( selected [15-i*4-j] ) begin
+					if(~selected [15-i*4-j] ) begin
 						color_seleccion = 1;
-					end else if (!(|selected[15:0]) && (3-currentX == j && 3-currentY == i)) begin
+					end else if ((selected[15:0]) && (3-currentX == j && 3-currentY == i)) begin
 						color_xy = 1;
 					end else begin
 						color_normal = 1;
 					end
 				end
-				
 
-				
-
-				//1-Se dibujar los o
-				if( ((x-x0)**2+(y-y0)**2 > (radio - ancho/2)**2) 
-				&&  ((x-x0)**2+(y-y0)**2 < (radio + ancho/2)**2)) begin
-					if(OpenCards[currentY][currentX]) color_normal = 1;
-				end
-				
+//				//1-Se dibujar los o
+//				if( ((x-x0)**2+(y-y0)**2 > (radio - ancho/2)**2) 
+//				&&  ((x-x0)**2+(y-y0)**2 < (radio + ancho/2)**2)) begin
+//					color_normal = 1;
+//				end
+//				
 			
 							
 				
@@ -202,9 +218,9 @@ module generadorMatriz #(parameter ancho=5)
 		end
 
 	   if(color_seleccion) begin
-			red =   8'b11111111;
+			red =   8'b00000000;
 			green = 8'b00000000;
-			blue =  8'b00000000;
+			blue =  8'b11111111;
 		end
 		else if(color_xy) begin
 			red =   8'b11111111;

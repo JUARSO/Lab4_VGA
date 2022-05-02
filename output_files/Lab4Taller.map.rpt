@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab4Taller
-Sat Apr 30 18:22:48 2022
+Sun May 01 21:26:28 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,49 +13,41 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis DSP Block Usage Summary
-  9. State Machine - |main|juego:game|Tstate
- 10. State Machine - |main|juego:game|Ystate
- 11. State Machine - |main|juego:game|Xstate
- 12. User-Specified and Inferred Latches
- 13. Registers Removed During Synthesis
- 14. General Register Statistics
- 15. Multiplexer Restructuring Statistics (Restructuring Performed)
- 16. Parameter Settings for User Entity Instance: clock25mh:clock|contador_parametrizable:divisor_clock
- 17. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador
- 18. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual
- 19. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_vertical:contador_vertical|contador_parametrizable:contador
- 20. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual
- 21. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch
- 22. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hsync
- 23. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hback_porch
- 24. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vfront_porch
- 25. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vsync
- 26. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vback_porch
- 27. Parameter Settings for User Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula
- 28. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0
- 29. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult1_rtl_1
- 30. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult4_rtl_2
- 31. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult8_rtl_3
- 32. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult12_rtl_4
- 33. Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult17_rtl_5
- 34. lpm_mult Parameter Settings by Entity Instance
- 35. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vback_porch"
- 36. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vsync"
- 37. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vfront_porch"
- 38. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hback_porch"
- 39. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hsync"
- 40. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch"
- 41. Port Connectivity Checks: "controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual"
- 42. Port Connectivity Checks: "controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual"
- 43. Port Connectivity Checks: "controlador_vga:controlador"
- 44. Port Connectivity Checks: "juego:game|MatrizDeJuego:MatJuego"
- 45. Port Connectivity Checks: "juego:game"
- 46. Port Connectivity Checks: "clock25mh:clock|contador_parametrizable:divisor_clock"
- 47. Post-Synthesis Netlist Statistics for Top Partition
- 48. Elapsed Time Per Partition
- 49. Analysis & Synthesis Messages
- 50. Analysis & Synthesis Suppressed Messages
+  8. State Machine - |main|juego:game|Tstate
+  9. State Machine - |main|juego:game|Ystate
+ 10. State Machine - |main|juego:game|Xstate
+ 11. User-Specified and Inferred Latches
+ 12. Registers Removed During Synthesis
+ 13. General Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Parameter Settings for User Entity Instance: clock25mh:clock|contador_parametrizable:divisor_clock
+ 16. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador
+ 17. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual
+ 18. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_vertical:contador_vertical|contador_parametrizable:contador
+ 19. Parameter Settings for User Entity Instance: controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual
+ 20. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch
+ 21. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hsync
+ 22. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hback_porch
+ 23. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vfront_porch
+ 24. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vsync
+ 25. Parameter Settings for User Entity Instance: controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vback_porch
+ 26. Parameter Settings for User Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula
+ 27. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vback_porch"
+ 28. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vsync"
+ 29. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vfront_porch"
+ 30. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hback_porch"
+ 31. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hsync"
+ 32. Port Connectivity Checks: "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch"
+ 33. Port Connectivity Checks: "controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual"
+ 34. Port Connectivity Checks: "controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual"
+ 35. Port Connectivity Checks: "controlador_vga:controlador"
+ 36. Port Connectivity Checks: "juego:game|MatrizDeJuego:MatJuego"
+ 37. Port Connectivity Checks: "juego:game"
+ 38. Port Connectivity Checks: "clock25mh:clock|contador_parametrizable:divisor_clock"
+ 39. Post-Synthesis Netlist Statistics for Top Partition
+ 40. Elapsed Time Per Partition
+ 41. Analysis & Synthesis Messages
+ 42. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -82,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Apr 30 18:22:48 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun May 01 21:26:28 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Lab4Taller                                  ;
 ; Top-level Entity Name           ; main                                        ;
@@ -92,7 +84,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total pins                      ; 35                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 110                                         ;
+; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -202,115 +194,80 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                               ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                           ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
-; sincronizador.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/sincronizador.sv           ;         ;
-; main.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv                    ;         ;
-; generadorMatriz.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv         ;         ;
-; controlador_vga.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv         ;         ;
-; contador_vertical.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/contador_vertical.sv       ;         ;
-; contador_parametrizable.sv       ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/contador_parametrizable.sv ;         ;
-; contador_horizontal.sv           ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/contador_horizontal.sv     ;         ;
-; comparador_mayor.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/comparador_mayor.sv        ;         ;
-; comparador_igual.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/comparador_igual.sv        ;         ;
-; clock25mh.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/clock25mh.sv               ;         ;
-; randomCard.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv              ;         ;
-; juego.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv                   ;         ;
-; win.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv                     ;         ;
-; MatrizDeJuego.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv           ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc  ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
-; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.inc    ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc    ;         ;
-; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc    ;         ;
-; db/mult_ol01.v                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/arman/Documents/1Semestre2022/Lab4/db/mult_ol01.v             ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                        ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                    ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+; sincronizador.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/sincronizador.sv           ;         ;
+; main.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv                    ;         ;
+; generadorMatriz.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv         ;         ;
+; controlador_vga.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv         ;         ;
+; contador_vertical.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_vertical.sv       ;         ;
+; contador_parametrizable.sv       ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_parametrizable.sv ;         ;
+; contador_horizontal.sv           ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_horizontal.sv     ;         ;
+; comparador_mayor.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/comparador_mayor.sv        ;         ;
+; comparador_igual.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/comparador_igual.sv        ;         ;
+; clock25mh.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/clock25mh.sv               ;         ;
+; randomCard.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv              ;         ;
+; juego.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv                   ;         ;
+; win.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/win.sv                     ;         ;
+; MatrizDeJuego.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/MatrizDeJuego.sv           ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                            ;
-+---------------------------------------------+--------------------------------------------------------------------------+
-; Resource                                    ; Usage                                                                    ;
-+---------------------------------------------+--------------------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 2178                                                                     ;
-;                                             ;                                                                          ;
-; Combinational ALUT usage for logic          ; 3975                                                                     ;
-;     -- 7 input functions                    ; 16                                                                       ;
-;     -- 6 input functions                    ; 363                                                                      ;
-;     -- 5 input functions                    ; 143                                                                      ;
-;     -- 4 input functions                    ; 365                                                                      ;
-;     -- <=3 input functions                  ; 3088                                                                     ;
-;                                             ;                                                                          ;
-; Dedicated logic registers                   ; 98                                                                       ;
-;                                             ;                                                                          ;
-; I/O pins                                    ; 35                                                                       ;
-;                                             ;                                                                          ;
-; Total DSP Blocks                            ; 110                                                                      ;
-;                                             ;                                                                          ;
-; Maximum fan-out node                        ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|Add19~41 ;
-; Maximum fan-out                             ; 121                                                                      ;
-; Total fan-out                               ; 16160                                                                    ;
-; Average fan-out                             ; 3.80                                                                     ;
-+---------------------------------------------+--------------------------------------------------------------------------+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 549            ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 751            ;
+;     -- 7 input functions                    ; 16             ;
+;     -- 6 input functions                    ; 330            ;
+;     -- 5 input functions                    ; 67             ;
+;     -- 4 input functions                    ; 87             ;
+;     -- <=3 input functions                  ; 251            ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 98             ;
+;                                             ;                ;
+; I/O pins                                    ; 35             ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; clock_50~input ;
+; Maximum fan-out                             ; 78             ;
+; Total fan-out                               ; 3773           ;
+; Average fan-out                             ; 4.11           ;
++---------------------------------------------+----------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                          ;
-+-----------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; Compilation Hierarchy Node                          ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                  ; Entity Name             ; Library Name ;
-+-----------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; |main                                               ; 3975 (0)            ; 98 (0)                    ; 0                 ; 110        ; 35   ; 0            ; |main                                                                                                                ; main                    ; work         ;
-;    |clock25mh:clock|                                ; 1 (0)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|clock25mh:clock                                                                                                ; clock25mh               ; work         ;
-;       |contador_parametrizable:divisor_clock|       ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |main|clock25mh:clock|contador_parametrizable:divisor_clock                                                          ; contador_parametrizable ; work         ;
-;    |controlador_vga:controlador|                    ; 3518 (0)            ; 20 (0)                    ; 0                 ; 110        ; 0    ; 0            ; |main|controlador_vga:controlador                                                                                    ; controlador_vga         ; work         ;
-;       |contador_horizontal:contador_horizontal|     ; 12 (0)              ; 10 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal                                            ; contador_horizontal     ; work         ;
-;          |comparador_igual:comparador_igual|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual          ; comparador_igual        ; work         ;
-;          |contador_parametrizable:contador|         ; 10 (10)             ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador           ; contador_parametrizable ; work         ;
-;       |contador_vertical:contador_vertical|         ; 12 (0)              ; 10 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical                                                ; contador_vertical       ; work         ;
-;          |comparador_igual:comparador_igual|        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual              ; comparador_igual        ; work         ;
-;          |contador_parametrizable:contador|         ; 10 (10)             ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical|contador_parametrizable:contador               ; contador_parametrizable ; work         ;
-;       |generadorMatriz:generadorCuadricula|         ; 3489 (2001)         ; 0 (0)                     ; 0                 ; 110        ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula                                                ; generadorMatriz         ; work         ;
-;          |lpm_mult:Mult0_rtl_0|                     ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0                           ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0|mult_ol01:auto_generated  ; mult_ol01               ; work         ;
-;          |lpm_mult:Mult12_rtl_4|                    ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult12_rtl_4                          ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult12_rtl_4|mult_ol01:auto_generated ; mult_ol01               ; work         ;
-;          |lpm_mult:Mult17_rtl_5|                    ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult17_rtl_5                          ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult17_rtl_5|mult_ol01:auto_generated ; mult_ol01               ; work         ;
-;          |lpm_mult:Mult1_rtl_1|                     ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult1_rtl_1                           ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult1_rtl_1|mult_ol01:auto_generated  ; mult_ol01               ; work         ;
-;          |lpm_mult:Mult4_rtl_2|                     ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult4_rtl_2                           ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult4_rtl_2|mult_ol01:auto_generated  ; mult_ol01               ; work         ;
-;          |lpm_mult:Mult8_rtl_3|                     ; 248 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult8_rtl_3                           ; lpm_mult                ; work         ;
-;             |mult_ol01:auto_generated|              ; 248 (248)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult8_rtl_3|mult_ol01:auto_generated  ; mult_ol01               ; work         ;
-;       |sincronizador:sincronizador|                 ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|sincronizador:sincronizador                                                        ; sincronizador           ; work         ;
-;          |comparador_mayor:comparador_vfront_porch| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_vfront_porch               ; comparador_mayor        ; work         ;
-;    |juego:game|                                     ; 456 (260)           ; 77 (71)                   ; 0                 ; 0          ; 0    ; 0            ; |main|juego:game                                                                                                     ; juego                   ; work         ;
-;       |randomCard:RandCard1|                        ; 196 (196)           ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |main|juego:game|randomCard:RandCard1                                                                                ; randomCard              ; work         ;
-+-----------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                             ;
++-------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                         ; Entity Name             ; Library Name ;
++-------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; |main                                           ; 751 (0)             ; 98 (0)                    ; 0                 ; 0          ; 35   ; 0            ; |main                                                                                                       ; main                    ; work         ;
+;    |clock25mh:clock|                            ; 1 (0)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|clock25mh:clock                                                                                       ; clock25mh               ; work         ;
+;       |contador_parametrizable:divisor_clock|   ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |main|clock25mh:clock|contador_parametrizable:divisor_clock                                                 ; contador_parametrizable ; work         ;
+;    |controlador_vga:controlador|                ; 284 (0)             ; 20 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador                                                                           ; controlador_vga         ; work         ;
+;       |contador_horizontal:contador_horizontal| ; 13 (0)              ; 10 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal                                   ; contador_horizontal     ; work         ;
+;          |comparador_igual:comparador_igual|    ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual ; comparador_igual        ; work         ;
+;          |contador_parametrizable:contador|     ; 10 (10)             ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador  ; contador_parametrizable ; work         ;
+;       |contador_vertical:contador_vertical|     ; 12 (0)              ; 10 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical                                       ; contador_vertical       ; work         ;
+;          |comparador_igual:comparador_igual|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical|comparador_igual:comparador_igual     ; comparador_igual        ; work         ;
+;          |contador_parametrizable:contador|     ; 10 (10)             ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|contador_vertical:contador_vertical|contador_parametrizable:contador      ; contador_parametrizable ; work         ;
+;       |generadorMatriz:generadorCuadricula|     ; 254 (254)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|generadorMatriz:generadorCuadricula                                       ; generadorMatriz         ; work         ;
+;       |sincronizador:sincronizador|             ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |main|controlador_vga:controlador|sincronizador:sincronizador                                               ; sincronizador           ; work         ;
+;    |juego:game|                                 ; 466 (270)           ; 77 (71)                   ; 0                 ; 0          ; 0    ; 0            ; |main|juego:game                                                                                            ; juego                   ; work         ;
+;       |randomCard:RandCard1|                    ; 196 (196)           ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |main|juego:game|randomCard:RandCard1                                                                       ; randomCard              ; work         ;
++-------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-----------------------------------------------+
-; Analysis & Synthesis DSP Block Usage Summary  ;
-+---------------------------------+-------------+
-; Statistic                       ; Number Used ;
-+---------------------------------+-------------+
-; Two Independent 18x18           ; 46          ;
-; Sum of two 18x18                ; 64          ;
-; Total number of DSP blocks      ; 110         ;
-;                                 ;             ;
-; Fixed Point Unsigned Multiplier ; 174         ;
-+---------------------------------+-------------+
 
 
 Encoding Type:  One-Hot
@@ -357,31 +314,9 @@ Encoding Type:  One-Hot
 +-----------------------------------------------------+--------------------------------+------------------------+
 ; Latch Name                                          ; Latch Enable Signal            ; Free of Timing Hazards ;
 +-----------------------------------------------------+--------------------------------+------------------------+
-; juego:game|OpenCardsTurn[3][3]                      ; juego:game|OpenCardsTurn[3][3] ; yes                    ;
-; juego:game|OpenCards_next[3][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|PairsCounter[3]                          ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[3][2]                      ; juego:game|OpenCardsTurn[3][2] ; yes                    ;
-; juego:game|OpenCards_next[3][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[2][3]                      ; juego:game|OpenCardsTurn[2][3] ; yes                    ;
-; juego:game|OpenCards_next[2][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[2][2]                      ; juego:game|OpenCardsTurn[2][2] ; yes                    ;
-; juego:game|OpenCards_next[2][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[1][3]                      ; juego:game|OpenCardsTurn[1][3] ; yes                    ;
-; juego:game|OpenCards_next[1][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[1][2]                      ; juego:game|OpenCardsTurn[1][2] ; yes                    ;
-; juego:game|OpenCards_next[1][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[0][3]                      ; juego:game|OpenCardsTurn[0][3] ; yes                    ;
-; juego:game|OpenCards_next[0][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[0][2]                      ; juego:game|OpenCardsTurn[0][2] ; yes                    ;
-; juego:game|OpenCards_next[0][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[3][1]                      ; juego:game|OpenCardsTurn[3][1] ; yes                    ;
-; juego:game|OpenCards_next[3][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[3][0]                      ; juego:game|OpenCardsTurn[3][0] ; yes                    ;
-; juego:game|OpenCards_next[3][0]                     ; juego:game|PairsCounter[3]     ; yes                    ;
-; juego:game|OpenCardsTurn[2][1]                      ; juego:game|OpenCardsTurn[2][1] ; yes                    ;
-; juego:game|OpenCards_next[2][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
 ; juego:game|OpenCardsTurn[2][0]                      ; juego:game|OpenCardsTurn[2][0] ; yes                    ;
 ; juego:game|OpenCards_next[2][0]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|PairsCounter[3]                          ; juego:game|PairsCounter[3]     ; yes                    ;
 ; juego:game|OpenCardsTurn[1][1]                      ; juego:game|OpenCardsTurn[1][1] ; yes                    ;
 ; juego:game|OpenCards_next[1][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
 ; juego:game|OpenCardsTurn[1][0]                      ; juego:game|OpenCardsTurn[1][0] ; yes                    ;
@@ -390,6 +325,28 @@ Encoding Type:  One-Hot
 ; juego:game|OpenCards_next[0][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
 ; juego:game|OpenCardsTurn[0][0]                      ; juego:game|OpenCardsTurn[0][0] ; yes                    ;
 ; juego:game|OpenCards_next[0][0]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[3][0]                      ; juego:game|OpenCardsTurn[3][0] ; yes                    ;
+; juego:game|OpenCards_next[3][0]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[3][1]                      ; juego:game|OpenCardsTurn[3][1] ; yes                    ;
+; juego:game|OpenCards_next[3][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[3][3]                      ; juego:game|OpenCardsTurn[3][3] ; yes                    ;
+; juego:game|OpenCards_next[3][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[2][3]                      ; juego:game|OpenCardsTurn[2][3] ; yes                    ;
+; juego:game|OpenCards_next[2][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[3][2]                      ; juego:game|OpenCardsTurn[3][2] ; yes                    ;
+; juego:game|OpenCards_next[3][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[2][2]                      ; juego:game|OpenCardsTurn[2][2] ; yes                    ;
+; juego:game|OpenCards_next[2][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[2][1]                      ; juego:game|OpenCardsTurn[2][1] ; yes                    ;
+; juego:game|OpenCards_next[2][1]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[0][3]                      ; juego:game|OpenCardsTurn[0][3] ; yes                    ;
+; juego:game|OpenCards_next[0][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[0][2]                      ; juego:game|OpenCardsTurn[0][2] ; yes                    ;
+; juego:game|OpenCards_next[0][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[1][3]                      ; juego:game|OpenCardsTurn[1][3] ; yes                    ;
+; juego:game|OpenCards_next[1][3]                     ; juego:game|PairsCounter[3]     ; yes                    ;
+; juego:game|OpenCardsTurn[1][2]                      ; juego:game|OpenCardsTurn[1][2] ; yes                    ;
+; juego:game|OpenCards_next[1][2]                     ; juego:game|PairsCounter[3]     ; yes                    ;
 ; juego:game|lastselect1[3]                           ; juego:game|lastselect1[3]      ; yes                    ;
 ; juego:game|lastselect1[2]                           ; juego:game|lastselect1[3]      ; yes                    ;
 ; juego:game|lastselect2[3]                           ; juego:game|lastselect1[3]      ; yes                    ;
@@ -511,7 +468,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 98    ;
-; Number of registers using Synchronous Clear  ; 72    ;
+; Number of registers using Synchronous Clear  ; 73    ;
 ; Number of registers using Synchronous Load   ; 16    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -525,9 +482,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |main|juego:game|OpenCards_state[0][2]           ;
-; 3:1                ; 31 bits   ; 62 LEs        ; 0 LEs                ; 62 LEs                 ; Yes        ; |main|juego:game|counter[2]                      ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|juego:game|randomCard:RandCard1|randomX[2] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |main|juego:game|OpenCards_state[2][0]           ;
+; 3:1                ; 31 bits   ; 62 LEs        ; 0 LEs                ; 62 LEs                 ; Yes        ; |main|juego:game|counter[6]                      ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|juego:game|randomCard:RandCard1|randomX[1] ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |main|juego:game|randomCard:RandCard1|randomY[2] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |main|juego:game|Tnext                           ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |main|juego:game|win:CheckWin|win[0]             ;
@@ -548,9 +505,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |main|juego:game|randomCard:RandCard1|randomY    ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |main|juego:game|randomCard:RandCard1|randomY    ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |main|juego:game|randomCard:RandCard1|randomY    ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |main|juego:game|Tnext.00                        ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |main|juego:game|Selector64                      ;
-; 7:1                ; 16 bits   ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; No         ; |main|juego:game|Selector34                      ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |main|juego:game|Tnext.10                        ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |main|juego:game|Selector0                       ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; No         ; |main|juego:game|Selector26                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
 
 
@@ -672,291 +629,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ancho          ; 5     ; Signed Integer                                                                      ;
 +----------------+-------+-------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0 ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                     ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                               ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                             ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                             ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                           ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                  ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                  ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                  ;
-; LATENCY                                        ; 0         ; Untyped                                                                  ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                  ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                  ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                  ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                  ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                      ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                  ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                  ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                  ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult1_rtl_1 ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                     ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                               ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                             ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                             ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                           ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                  ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                  ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                  ;
-; LATENCY                                        ; 0         ; Untyped                                                                  ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                  ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                  ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                  ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                  ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                      ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                  ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                  ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                  ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult4_rtl_2 ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                     ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                               ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                             ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                             ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                           ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                  ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                  ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                  ;
-; LATENCY                                        ; 0         ; Untyped                                                                  ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                  ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                  ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                  ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                  ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                      ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                  ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                  ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                  ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult8_rtl_3 ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                     ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                               ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                             ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                             ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                           ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                  ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                  ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                  ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                  ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                  ;
-; LATENCY                                        ; 0         ; Untyped                                                                  ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                  ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                  ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                  ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                  ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                  ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                      ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                  ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                  ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                  ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                  ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                  ;
-+------------------------------------------------+-----------+--------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult12_rtl_4 ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                      ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                                ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                              ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                              ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                            ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                   ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                   ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                   ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                   ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                   ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                   ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                   ;
-; LATENCY                                        ; 0         ; Untyped                                                                   ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                   ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                   ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                   ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                   ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                   ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                   ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                       ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                   ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                   ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                   ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                   ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                   ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                   ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                   ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult17_rtl_5 ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-; Parameter Name                                 ; Value     ; Type                                                                      ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS                              ; ON        ; AUTO_CARRY                                                                ;
-; IGNORE_CARRY_BUFFERS                           ; OFF       ; IGNORE_CARRY                                                              ;
-; AUTO_CASCADE_CHAINS                            ; ON        ; AUTO_CASCADE                                                              ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF       ; IGNORE_CASCADE                                                            ;
-; LPM_WIDTHA                                     ; 18        ; Untyped                                                                   ;
-; LPM_WIDTHB                                     ; 18        ; Untyped                                                                   ;
-; LPM_WIDTHP                                     ; 36        ; Untyped                                                                   ;
-; LPM_WIDTHR                                     ; 36        ; Untyped                                                                   ;
-; LPM_WIDTHS                                     ; 1         ; Untyped                                                                   ;
-; LPM_REPRESENTATION                             ; UNSIGNED  ; Untyped                                                                   ;
-; LPM_PIPELINE                                   ; 0         ; Untyped                                                                   ;
-; LATENCY                                        ; 0         ; Untyped                                                                   ;
-; INPUT_A_IS_CONSTANT                            ; NO        ; Untyped                                                                   ;
-; INPUT_B_IS_CONSTANT                            ; NO        ; Untyped                                                                   ;
-; USE_EAB                                        ; OFF       ; Untyped                                                                   ;
-; MAXIMIZE_SPEED                                 ; 5         ; Untyped                                                                   ;
-; DEVICE_FAMILY                                  ; Cyclone V ; Untyped                                                                   ;
-; CARRY_CHAIN                                    ; MANUAL    ; Untyped                                                                   ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT       ; TECH_MAPPER_APEX20K                                                       ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; NO        ; Untyped                                                                   ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0         ; Untyped                                                                   ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0         ; Untyped                                                                   ;
-; CBXI_PARAMETER                                 ; mult_ol01 ; Untyped                                                                   ;
-; INPUT_A_FIXED_VALUE                            ; Bx        ; Untyped                                                                   ;
-; INPUT_B_FIXED_VALUE                            ; Bx        ; Untyped                                                                   ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF       ; Untyped                                                                   ;
-+------------------------------------------------+-----------+---------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------------------------------------------------+
-; lpm_mult Parameter Settings by Entity Instance                                                                                ;
-+---------------------------------------+---------------------------------------------------------------------------------------+
-; Name                                  ; Value                                                                                 ;
-+---------------------------------------+---------------------------------------------------------------------------------------+
-; Number of entity instances            ; 6                                                                                     ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0  ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult1_rtl_1  ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult4_rtl_2  ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult8_rtl_3  ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult12_rtl_4 ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-; Entity Instance                       ; controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult17_rtl_5 ;
-;     -- LPM_WIDTHA                     ; 18                                                                                    ;
-;     -- LPM_WIDTHB                     ; 18                                                                                    ;
-;     -- LPM_WIDTHP                     ; 36                                                                                    ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                              ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                    ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                    ;
-;     -- USE_EAB                        ; OFF                                                                                   ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; NO                                                                                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                    ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                    ;
-+---------------------------------------+---------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -1106,37 +778,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 98                          ;
-;     ENA               ; 5                           ;
-;     ENA SCLR          ; 34                          ;
+;     ENA               ; 4                           ;
+;     ENA SCLR          ; 35                          ;
 ;     SCLR              ; 22                          ;
 ;     SCLR SLD          ; 16                          ;
 ;     plain             ; 21                          ;
-; arriav_lcell_comb     ; 3978                        ;
-;     arith             ; 2158                        ;
-;         0 data inputs ; 62                          ;
-;         1 data inputs ; 301                         ;
-;         2 data inputs ; 1099                        ;
-;         3 data inputs ; 480                         ;
-;         4 data inputs ; 216                         ;
+; arriav_lcell_comb     ; 754                         ;
+;     arith             ; 104                         ;
+;         0 data inputs ; 3                           ;
+;         1 data inputs ; 101                         ;
 ;     extend            ; 16                          ;
 ;         7 data inputs ; 16                          ;
-;     normal            ; 840                         ;
+;     normal            ; 634                         ;
 ;         1 data inputs ; 4                           ;
-;         2 data inputs ; 76                          ;
+;         2 data inputs ; 41                          ;
 ;         3 data inputs ; 105                         ;
-;         4 data inputs ; 149                         ;
-;         5 data inputs ; 143                         ;
-;         6 data inputs ; 363                         ;
-;     shared            ; 964                         ;
-;         0 data inputs ; 12                          ;
-;         1 data inputs ; 36                          ;
-;         2 data inputs ; 72                          ;
-;         3 data inputs ; 844                         ;
-; arriav_mac            ; 110                         ;
+;         4 data inputs ; 87                          ;
+;         5 data inputs ; 67                          ;
+;         6 data inputs ; 330                         ;
 ; boundary_port         ; 35                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 48.00                       ;
-; Average LUT depth     ; 10.27                       ;
+; Average LUT depth     ; 14.49                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1145,7 +808,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:09     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -1155,332 +818,307 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Apr 30 18:22:22 2022
+    Info: Processing started: Sun May 01 21:26:18 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab4Taller -c Lab4Taller
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sincronizador.sv
-    Info (12023): Found entity 1: sincronizador File: C:/Users/arman/Documents/1Semestre2022/Lab4/sincronizador.sv Line: 1
+    Info (12023): Found entity 1: sincronizador File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/sincronizador.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file main.sv
-    Info (12023): Found entity 1: main File: C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv Line: 1
+    Info (12023): Found entity 1: main File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file generadormatriz.sv
-    Info (12023): Found entity 1: generadorMatriz File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 1
+    Info (12023): Found entity 1: generadorMatriz File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file control_movimiento.sv
-    Info (12023): Found entity 1: control_movimiento File: C:/Users/arman/Documents/1Semestre2022/Lab4/control_movimiento.sv Line: 1
+    Info (12023): Found entity 1: control_movimiento File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/control_movimiento.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file controlador_vga.sv
-    Info (12023): Found entity 1: controlador_vga File: C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv Line: 1
+    Info (12023): Found entity 1: controlador_vga File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contador_vertical.sv
-    Info (12023): Found entity 1: contador_vertical File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_vertical.sv Line: 1
+    Info (12023): Found entity 1: contador_vertical File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_vertical.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contador_parametrizable.sv
-    Info (12023): Found entity 1: contador_parametrizable File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_parametrizable.sv Line: 1
+    Info (12023): Found entity 1: contador_parametrizable File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_parametrizable.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contador_horizontal.sv
-    Info (12023): Found entity 1: contador_horizontal File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_horizontal.sv Line: 1
+    Info (12023): Found entity 1: contador_horizontal File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_horizontal.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file comparador_mayor.sv
-    Info (12023): Found entity 1: comparador_mayor File: C:/Users/arman/Documents/1Semestre2022/Lab4/comparador_mayor.sv Line: 1
+    Info (12023): Found entity 1: comparador_mayor File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/comparador_mayor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file comparador_igual.sv
-    Info (12023): Found entity 1: comparador_igual File: C:/Users/arman/Documents/1Semestre2022/Lab4/comparador_igual.sv Line: 1
+    Info (12023): Found entity 1: comparador_igual File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/comparador_igual.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clock25mh.sv
-    Info (12023): Found entity 1: clock25mh File: C:/Users/arman/Documents/1Semestre2022/Lab4/clock25mh.sv Line: 1
+    Info (12023): Found entity 1: clock25mh File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/clock25mh.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file randomcard.sv
-    Info (12023): Found entity 1: randomCard File: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv Line: 1
+    Info (12023): Found entity 1: randomCard File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contadorj1.sv
-    Info (12023): Found entity 1: ContadorJ1 File: C:/Users/arman/Documents/1Semestre2022/Lab4/ContadorJ1.sv Line: 1
+    Info (12023): Found entity 1: ContadorJ1 File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/ContadorJ1.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pruebacontador.sv
-    Info (12023): Found entity 1: pruebaContador File: C:/Users/arman/Documents/1Semestre2022/Lab4/pruebaContador.sv Line: 1
+    Info (12023): Found entity 1: pruebaContador File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/pruebaContador.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file juego.sv
-    Info (12023): Found entity 1: juego File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 1
+    Info (12023): Found entity 1: juego File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file win.sv
-    Info (12023): Found entity 1: win File: C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv Line: 6
+    Info (12023): Found entity 1: win File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/win.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file contadorj2.sv
-    Info (12023): Found entity 1: ContadorJ2 File: C:/Users/arman/Documents/1Semestre2022/Lab4/ContadorJ2.sv Line: 1
+    Info (12023): Found entity 1: ContadorJ2 File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/ContadorJ2.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file matrizdejuego.sv
-    Info (12023): Found entity 1: MatrizDeJuego File: C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv Line: 1
+    Info (12023): Found entity 1: MatrizDeJuego File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/MatrizDeJuego.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file encontrarpareja.sv
-    Info (12023): Found entity 1: encontrarPareja File: C:/Users/arman/Documents/1Semestre2022/Lab4/encontrarPareja.sv Line: 1
+    Info (12023): Found entity 1: encontrarPareja File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/encontrarPareja.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contadorparejas.sv
-    Info (12023): Found entity 1: ContadorParejas File: C:/Users/arman/Documents/1Semestre2022/Lab4/ContadorParejas.sv Line: 1
+    Info (12023): Found entity 1: ContadorParejas File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/ContadorParejas.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pruebamatriz.sv
-    Info (12023): Found entity 1: pruebaMatriz File: C:/Users/arman/Documents/1Semestre2022/Lab4/pruebaMatriz.sv Line: 1
+    Info (12023): Found entity 1: pruebaMatriz File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/pruebaMatriz.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pruebarandom.sv
-    Info (12023): Found entity 1: pruebaRandom File: C:/Users/arman/Documents/1Semestre2022/Lab4/pruebaRandom.sv Line: 1
+    Info (12023): Found entity 1: pruebaRandom File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/pruebaRandom.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file test_juego.sv
-    Info (12023): Found entity 1: test_juego File: C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv Line: 1
+    Info (12023): Found entity 1: test_juego File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/test_juego.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file matrizestadocartas.sv
-    Info (12023): Found entity 1: MatrizEstadoCartas File: C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizEstadoCartas.sv Line: 1
+    Info (12023): Found entity 1: MatrizEstadoCartas File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/MatrizEstadoCartas.sv Line: 1
 Info (12127): Elaborating entity "main" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at main.sv(16): object "MatrizJuego" assigned a value but never read File: C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv Line: 16
+Warning (10036): Verilog HDL or VHDL warning at main.sv(16): object "MatrizJuego" assigned a value but never read File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv Line: 16
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
-Info (12128): Elaborating entity "clock25mh" for hierarchy "clock25mh:clock" File: C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv Line: 26
-Info (12128): Elaborating entity "contador_parametrizable" for hierarchy "clock25mh:clock|contador_parametrizable:divisor_clock" File: C:/Users/arman/Documents/1Semestre2022/Lab4/clock25mh.sv Line: 5
-Warning (10230): Verilog HDL assignment warning at contador_parametrizable.sv(11): truncated value with size 32 to match size of target (2) File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_parametrizable.sv Line: 11
-Info (12128): Elaborating entity "juego" for hierarchy "juego:game" File: C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv Line: 28
-Warning (10230): Verilog HDL assignment warning at juego.sv(97): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 97
-Warning (10230): Verilog HDL assignment warning at juego.sv(98): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 98
-Warning (10230): Verilog HDL assignment warning at juego.sv(99): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 99
-Warning (10230): Verilog HDL assignment warning at juego.sv(100): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 100
-Warning (10230): Verilog HDL assignment warning at juego.sv(102): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 102
-Warning (10230): Verilog HDL assignment warning at juego.sv(103): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 103
-Warning (10230): Verilog HDL assignment warning at juego.sv(104): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 104
-Warning (10230): Verilog HDL assignment warning at juego.sv(105): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 105
-Warning (10230): Verilog HDL assignment warning at juego.sv(107): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 107
-Warning (10230): Verilog HDL assignment warning at juego.sv(108): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 108
-Warning (10230): Verilog HDL assignment warning at juego.sv(109): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 109
-Warning (10230): Verilog HDL assignment warning at juego.sv(110): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 110
-Warning (10230): Verilog HDL assignment warning at juego.sv(112): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 112
-Warning (10230): Verilog HDL assignment warning at juego.sv(113): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 113
-Warning (10230): Verilog HDL assignment warning at juego.sv(114): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 114
-Warning (10230): Verilog HDL assignment warning at juego.sv(115): truncated value with size 4 to match size of target (1) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 115
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(144): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 144
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(144): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 144
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(145): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 145
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(146): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 146
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(156): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 156
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(156): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 156
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(157): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 157
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(158): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 158
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(160): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 160
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(160): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 160
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(162): variable "J1Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 162
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(163): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 163
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(182): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 182
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(182): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 182
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(184): variable "J1Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 184
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(185): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 185
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(197): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 197
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(197): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 197
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(202): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 202
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(202): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 202
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(203): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 203
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(204): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 204
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(214): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 214
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(214): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 214
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(215): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 215
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(216): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 216
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(218): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 218
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(218): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 218
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(220): variable "J2Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 220
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(221): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 221
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(235): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 235
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(235): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 235
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(237): variable "J2Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 237
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(238): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 238
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(248): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 248
-Warning (10235): Verilog HDL Always Construct warning at juego.sv(248): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 248
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "lastselect1", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "lastselect2", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "select1", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "select2", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "J1Counter", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "PairsCounter", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "J2Counter", which holds its previous value in one or more paths through the always construct File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 136
-Warning (10230): Verilog HDL assignment warning at juego.sv(316): truncated value with size 3 to match size of target (2) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 316
-Warning (10230): Verilog HDL assignment warning at juego.sv(317): truncated value with size 3 to match size of target (2) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 317
-Info (10041): Inferred latch for "J2Counter[0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J2Counter[1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J2Counter[2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J2Counter[3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[3][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[3][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[3][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[3][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[2][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[2][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[2][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[2][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[1][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[1][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[1][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[1][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[0][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[0][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[0][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCards_next[0][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "PairsCounter[0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "PairsCounter[1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "PairsCounter[2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "PairsCounter[3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J1Counter[0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J1Counter[1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J1Counter[2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "J1Counter[3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect2[0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect2[1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect2[2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect2[3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect1[0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect1[1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect1[2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "lastselect1[3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[3][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[3][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[3][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[3][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[2][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[2][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[2][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[2][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[1][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[1][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[1][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[1][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[0][3]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[0][2]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[0][1]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10041): Inferred latch for "OpenCardsTurn[0][0]" at juego.sv(140) File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
-Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
-Info (12128): Elaborating entity "MatrizDeJuego" for hierarchy "juego:game|MatrizDeJuego:MatJuego" File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 55
+Info (12128): Elaborating entity "clock25mh" for hierarchy "clock25mh:clock" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv Line: 26
+Info (12128): Elaborating entity "contador_parametrizable" for hierarchy "clock25mh:clock|contador_parametrizable:divisor_clock" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/clock25mh.sv Line: 5
+Warning (10230): Verilog HDL assignment warning at contador_parametrizable.sv(11): truncated value with size 32 to match size of target (2) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_parametrizable.sv Line: 11
+Info (12128): Elaborating entity "juego" for hierarchy "juego:game" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at juego.sv(97): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 97
+Warning (10230): Verilog HDL assignment warning at juego.sv(98): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 98
+Warning (10230): Verilog HDL assignment warning at juego.sv(99): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 99
+Warning (10230): Verilog HDL assignment warning at juego.sv(100): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 100
+Warning (10230): Verilog HDL assignment warning at juego.sv(102): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 102
+Warning (10230): Verilog HDL assignment warning at juego.sv(103): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 103
+Warning (10230): Verilog HDL assignment warning at juego.sv(104): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 104
+Warning (10230): Verilog HDL assignment warning at juego.sv(105): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 105
+Warning (10230): Verilog HDL assignment warning at juego.sv(107): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 107
+Warning (10230): Verilog HDL assignment warning at juego.sv(108): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 108
+Warning (10230): Verilog HDL assignment warning at juego.sv(109): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 109
+Warning (10230): Verilog HDL assignment warning at juego.sv(110): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 110
+Warning (10230): Verilog HDL assignment warning at juego.sv(112): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 112
+Warning (10230): Verilog HDL assignment warning at juego.sv(113): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 113
+Warning (10230): Verilog HDL assignment warning at juego.sv(114): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 114
+Warning (10230): Verilog HDL assignment warning at juego.sv(115): truncated value with size 4 to match size of target (1) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 115
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(144): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 144
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(144): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 144
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(145): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 145
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(146): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 146
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(156): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 156
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(156): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 156
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(157): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 157
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(158): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 158
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(160): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 160
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(160): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 160
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(162): variable "J1Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 162
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(163): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 163
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(182): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 182
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(182): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 182
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(184): variable "J1Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 184
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(185): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 185
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(197): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 197
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(197): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 197
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(202): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 202
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(202): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 202
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(203): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 203
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(204): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 204
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(214): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 214
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(214): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 214
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(215): variable "random1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 215
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(216): variable "random2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 216
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(218): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 218
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(218): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 218
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(220): variable "J2Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 220
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(221): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 221
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(235): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 235
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(235): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 235
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(237): variable "J2Counter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 237
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(238): variable "PairsCounter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 238
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(248): variable "lastselect1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 248
+Warning (10235): Verilog HDL Always Construct warning at juego.sv(248): variable "lastselect2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 248
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "lastselect1", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "lastselect2", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "select1", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "select2", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "J1Counter", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "PairsCounter", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10240): Verilog HDL Always Construct warning at juego.sv(136): inferring latch(es) for variable "J2Counter", which holds its previous value in one or more paths through the always construct File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 136
+Warning (10230): Verilog HDL assignment warning at juego.sv(316): truncated value with size 3 to match size of target (2) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 316
+Warning (10230): Verilog HDL assignment warning at juego.sv(317): truncated value with size 3 to match size of target (2) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 317
+Info (10041): Inferred latch for "J2Counter[0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J2Counter[1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J2Counter[2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J2Counter[3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[3][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[3][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[3][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[3][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[2][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[2][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[2][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[2][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[1][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[1][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[1][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[1][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[0][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[0][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[0][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCards_next[0][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "PairsCounter[0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "PairsCounter[1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "PairsCounter[2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "PairsCounter[3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J1Counter[0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J1Counter[1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J1Counter[2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "J1Counter[3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect2[0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect2[1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect2[2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect2[3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect1[0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect1[1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect1[2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "lastselect1[3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[3][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[3][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[3][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[3][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[2][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[2][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[2][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[2][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[1][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[1][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[1][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[1][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[0][3]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[0][2]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[0][1]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Info (10041): Inferred latch for "OpenCardsTurn[0][0]" at juego.sv(140) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
-Info (12128): Elaborating entity "win" for hierarchy "juego:game|win:CheckWin" File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 56
-Info (12128): Elaborating entity "randomCard" for hierarchy "juego:game|randomCard:RandCard1" File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 57
-Warning (10230): Verilog HDL assignment warning at randomCard.sv(26): truncated value with size 32 to match size of target (4) File: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv Line: 26
-Warning (10230): Verilog HDL assignment warning at randomCard.sv(30): truncated value with size 32 to match size of target (4) File: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv Line: 30
-Warning (10230): Verilog HDL assignment warning at randomCard.sv(39): truncated value with size 32 to match size of target (4) File: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv Line: 39
-Warning (10230): Verilog HDL assignment warning at randomCard.sv(41): truncated value with size 32 to match size of target (4) File: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv Line: 41
-Info (12128): Elaborating entity "controlador_vga" for hierarchy "controlador_vga:controlador" File: C:/Users/arman/Documents/1Semestre2022/Lab4/main.sv Line: 41
-Info (12128): Elaborating entity "contador_horizontal" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal" File: C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv Line: 21
-Info (12128): Elaborating entity "contador_parametrizable" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador" File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_horizontal.sv Line: 8
-Warning (10230): Verilog HDL assignment warning at contador_parametrizable.sv(11): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_parametrizable.sv Line: 11
-Info (12128): Elaborating entity "comparador_igual" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual" File: C:/Users/arman/Documents/1Semestre2022/Lab4/contador_horizontal.sv Line: 9
-Info (12128): Elaborating entity "contador_vertical" for hierarchy "controlador_vga:controlador|contador_vertical:contador_vertical" File: C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv Line: 23
-Info (12128): Elaborating entity "sincronizador" for hierarchy "controlador_vga:controlador|sincronizador:sincronizador" File: C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv Line: 24
-Info (12128): Elaborating entity "comparador_mayor" for hierarchy "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch" File: C:/Users/arman/Documents/1Semestre2022/Lab4/sincronizador.sv Line: 16
-Info (12128): Elaborating entity "generadorMatriz" for hierarchy "controlador_vga:controlador|generadorMatriz:generadorCuadricula" File: C:/Users/arman/Documents/1Semestre2022/Lab4/controlador_vga.sv Line: 25
-Warning (10858): Verilog HDL warning at generadorMatriz.sv(17): object selected used but never assigned File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 17
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(37): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 37
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(38): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 38
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(39): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 39
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(40): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 40
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(41): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 41
-Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(46): truncated value with size 32 to match size of target (10) File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 46
-Warning (10030): Net "selected" at generadorMatriz.sv(17) has no driver or initial value, using a default initial value '0' File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 17
-Info (278001): Inferred 6 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult0~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult1~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult4~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult8~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult12~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "controlador_vga:controlador|generadorMatriz:generadorCuadricula|Mult17~mult_llmacmult" File: C:/Users/arman/Documents/1Semestre2022/Lab4/generadorMatriz.sv Line: 65
-Info (12130): Elaborated megafunction instantiation "controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0"
-Info (12133): Instantiated megafunction "controlador_vga:controlador|generadorMatriz:generadorCuadricula|lpm_mult:Mult0_rtl_0" with the following parameter:
-    Info (12134): Parameter "LPM_WIDTHA" = "18"
-    Info (12134): Parameter "LPM_WIDTHB" = "18"
-    Info (12134): Parameter "LPM_WIDTHP" = "36"
-    Info (12134): Parameter "LPM_WIDTHR" = "36"
-    Info (12134): Parameter "LPM_WIDTHS" = "1"
-    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-    Info (12134): Parameter "DEDICATED_MULTIPLIER_CIRCUITRY" = "NO"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mult_ol01.v
-    Info (12023): Found entity 1: mult_ol01 File: C:/Users/arman/Documents/1Semestre2022/Lab4/db/mult_ol01.v Line: 81
+Info (12128): Elaborating entity "MatrizDeJuego" for hierarchy "juego:game|MatrizDeJuego:MatJuego" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 55
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "MatrizJuego" into its bus
+Info (12128): Elaborating entity "win" for hierarchy "juego:game|win:CheckWin" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 56
+Info (12128): Elaborating entity "randomCard" for hierarchy "juego:game|randomCard:RandCard1" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 57
+Warning (10230): Verilog HDL assignment warning at randomCard.sv(26): truncated value with size 32 to match size of target (4) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv Line: 26
+Warning (10230): Verilog HDL assignment warning at randomCard.sv(30): truncated value with size 32 to match size of target (4) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv Line: 30
+Warning (10230): Verilog HDL assignment warning at randomCard.sv(39): truncated value with size 32 to match size of target (4) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv Line: 39
+Warning (10230): Verilog HDL assignment warning at randomCard.sv(41): truncated value with size 32 to match size of target (4) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/randomCard.sv Line: 41
+Info (12128): Elaborating entity "controlador_vga" for hierarchy "controlador_vga:controlador" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv Line: 41
+Info (12128): Elaborating entity "contador_horizontal" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv Line: 21
+Info (12128): Elaborating entity "contador_parametrizable" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_horizontal.sv Line: 8
+Warning (10230): Verilog HDL assignment warning at contador_parametrizable.sv(11): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_parametrizable.sv Line: 11
+Info (12128): Elaborating entity "comparador_igual" for hierarchy "controlador_vga:controlador|contador_horizontal:contador_horizontal|comparador_igual:comparador_igual" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/contador_horizontal.sv Line: 9
+Info (12128): Elaborating entity "contador_vertical" for hierarchy "controlador_vga:controlador|contador_vertical:contador_vertical" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv Line: 23
+Info (12128): Elaborating entity "sincronizador" for hierarchy "controlador_vga:controlador|sincronizador:sincronizador" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv Line: 24
+Info (12128): Elaborating entity "comparador_mayor" for hierarchy "controlador_vga:controlador|sincronizador:sincronizador|comparador_mayor:comparador_hfront_porch" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/sincronizador.sv Line: 16
+Info (12128): Elaborating entity "generadorMatriz" for hierarchy "controlador_vga:controlador|generadorMatriz:generadorCuadricula" File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/controlador_vga.sv Line: 25
+Warning (10036): Verilog HDL or VHDL warning at generadorMatriz.sv(25): object "radio" assigned a value but never read File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 25
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(56): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 56
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(57): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 57
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(58): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 58
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(59): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(60): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 60
+Warning (10230): Verilog HDL assignment warning at generadorMatriz.sv(65): truncated value with size 32 to match size of target (10) File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/generadorMatriz.sv Line: 65
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info (13014): Ignored 1884 buffer(s)
-    Info (13019): Ignored 1884 SOFT buffer(s)
-Warning (13012): Latch juego:game|OpenCardsTurn[3][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[3][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|PairsCounter[3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|PairsCounter[3] File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-Warning (13012): Latch juego:game|OpenCardsTurn[3][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[3][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[2][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[2][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[2][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[2][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[1][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[1][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[1][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[1][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[0][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[0][3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[0][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[0][2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[3][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[3][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[3][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[3][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[2][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[2][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[2][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[2][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[1][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[1][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[1][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[1][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[0][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[0][1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCardsTurn[0][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|OpenCards_next[0][0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect1[3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect1[2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect2[3] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect2[2] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect1[0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect1[1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect2[0] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
-Warning (13012): Latch juego:game|lastselect2[1] has unsafe behavior File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 140
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[2][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[2][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|PairsCounter[3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|PairsCounter[3] File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+Warning (13012): Latch juego:game|OpenCardsTurn[1][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[1][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[1][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[1][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[0][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[0][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[0][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[0][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[3][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[3][0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[3][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[3][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[3][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[3][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[2][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[2][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[3][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[3][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[2][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[2][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[2][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[2][1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[0][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[0][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[0][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[0][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[1][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[1][3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCardsTurn[1][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|OpenCards_next[1][2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect1[3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect1[2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect2[3] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect2[2] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect1[0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect1[1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect2[0] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
+Warning (13012): Latch juego:game|lastselect2[1] has unsafe behavior File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 140
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal juego:game|timeOut File: C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/juego.sv Line: 14
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 9 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/arman/Documents/1Semestre2022/Lab4/output_files/Lab4Taller.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/output_files/Lab4Taller.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4142 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 808 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 3997 logic cells
-    Info (21062): Implemented 110 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 160 warnings
-    Info: Peak virtual memory: 4925 megabytes
-    Info: Processing ended: Sat Apr 30 18:22:48 2022
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:47
+    Info (21061): Implemented 773 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 159 warnings
+    Info: Peak virtual memory: 4833 megabytes
+    Info: Processing ended: Sun May 01 21:26:28 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:22
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/arman/Documents/1Semestre2022/Lab4/output_files/Lab4Taller.map.smsg.
+The suppressed messages can be found in C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/output_files/Lab4Taller.map.smsg.
 
 

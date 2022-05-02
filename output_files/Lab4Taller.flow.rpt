@@ -1,5 +1,5 @@
 Flow report for Lab4Taller
-Sat Apr 30 18:25:58 2022
+Sun May 01 21:27:31 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,19 +41,19 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Apr 30 18:25:58 2022       ;
+; Flow Status                     ; Successful - Sun May 01 21:27:31 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Lab4Taller                                  ;
 ; Top-level Entity Name           ; main                                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 2,270 / 32,070 ( 7 % )                      ;
-; Total registers                 ; 101                                         ;
+; Logic utilization (in ALMs)     ; 497 / 32,070 ( 2 % )                        ;
+; Total registers                 ; 103                                         ;
 ; Total pins                      ; 35 / 457 ( 8 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
-; Total DSP Blocks                ; 87 / 87 ( 100 % )                           ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/30/2022 18:22:23 ;
+; Start date & time ; 05/01/2022 21:26:18 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab4Taller          ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 215938455869416.165136454317080        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 186423032802.165146197816512           ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testJuego                         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; test2                             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Test1                             ;
@@ -122,12 +122,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4925 MB             ; 00:00:46                           ;
-; Fitter               ; 00:02:23     ; 1.2                     ; 6691 MB             ; 00:05:48                           ;
-; Assembler            ; 00:00:11     ; 1.0                     ; 4891 MB             ; 00:00:11                           ;
-; Timing Analyzer      ; 00:00:23     ; 2.5                     ; 5234 MB             ; 00:00:52                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4788 MB             ; 00:00:03                           ;
-; Total                ; 00:03:24     ; --                      ; --                  ; 00:07:40                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4833 MB             ; 00:00:22                           ;
+; Fitter               ; 00:00:47     ; 1.1                     ; 6587 MB             ; 00:01:31                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4847 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.5                     ; 5155 MB             ; 00:00:08                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4732 MB             ; 00:00:01                           ;
+; Total                ; 00:01:09     ; --                      ; --                  ; 00:02:08                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -136,11 +136,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-AAFV8PST  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; LAPTOP-AAFV8PST  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; LAPTOP-AAFV8PST  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; LAPTOP-AAFV8PST  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; LAPTOP-AAFV8PST  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-M22RR00  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-M22RR00  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-M22RR00  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-M22RR00  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-M22RR00  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

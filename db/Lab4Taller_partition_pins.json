@@ -124,15 +124,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "play",
-					"strict" : false
-				},
-				{
 					"name" : "left",
 					"strict" : false
 				},
 				{
 					"name" : "right",
+					"strict" : false
+				},
+				{
+					"name" : "play",
 					"strict" : false
 				},
 				{

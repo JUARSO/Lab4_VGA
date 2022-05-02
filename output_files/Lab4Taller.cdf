@@ -5,6 +5,8 @@ JedecChain;
 
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
+	P ActionCode(Cfg)
+		Device PartName(5CSEMA5F31) Path("C:/Users/arman/Pictures/Lab4_VGA/output_files/") File("Lab4Taller.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

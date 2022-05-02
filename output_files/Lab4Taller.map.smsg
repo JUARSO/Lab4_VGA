@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at win.sv(8): always construct contains both blocking and non-blocking assignments File: C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv Line: 8

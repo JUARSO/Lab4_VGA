@@ -1,0 +1,43 @@
+module pruebaMatriz();
+
+reg[4:0] MJ [0:3][0:3];
+
+
+
+logic [3:0] px;
+
+logic [3:0] py;
+
+logic [3:0] sx;
+
+logic [3:0] sy;
+
+
+logic salida;
+
+	
+	
+	
+MatrizDeJuego MatJuego(1'b1,MJ);
+
+
+encontrarPareja find(MJ, px, py, sx, sy, salida)
+  
+ 
+  
+  initial begin
+    
+    px=4'd0;
+	 py=4'd0;
+	 sx=4'd1;
+	 sy=4'd2;
+	 
+	 
+	 #10;
+	 
+	
+	 
+	 	 
+  end
+  
+endmodule

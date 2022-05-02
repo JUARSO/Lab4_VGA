@@ -1,0 +1,33 @@
+//00 juego sigue
+//01 ganó jugador1
+//10 ganó jugador2
+//11 empate
+
+module win(input logic [3:0] player1, player2, parejas,output logic [1:0] win);
+
+	always @(player1,player2) 
+	begin 
+
+	if(
+	parejas==4b'0000 ||
+	parejas==4b'0001 ||
+	parejas==4b'0010 ||
+	parejas==4b'0011 ||
+	parejas==4b'0100 ||
+	parejas==4b'0101 ||
+	parejas==4b'0110 ||
+	parejas==4b'0111 ||)
+		win = 2b'00;
+	else begin
+	
+		if(player1==player2)
+			win = 2b'11;
+		else if(player1>player2)
+			win = 2b'01
+		else
+			win = 2b'10
+	
+	end
+	
+endmodule
+		

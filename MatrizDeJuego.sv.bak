@@ -1,0 +1,7 @@
+module MatrizDeJuego(input logic up,
+input logic clk,
+output reg[15:0] matriz);
+
+
+
+endmodule

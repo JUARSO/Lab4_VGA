@@ -1,0 +1,9 @@
+module juego(
+input logic up,
+input logic down,
+input logic rigt,
+input logic left,
+input logic select,
+input logic reset,
+input logic clk
+output reg)

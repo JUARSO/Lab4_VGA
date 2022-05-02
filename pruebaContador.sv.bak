@@ -1,0 +1,42 @@
+module pruebaContador();
+
+logic [1:0] entrada;
+
+logic reloj;
+logic reset;
+reg [7:0] salida;
+
+	
+	
+	
+ContadorJ1  Conttest (entradaA, entradaB, reloj, reset, salida);
+
+
+  
+ 
+  
+  initial begin
+    
+    entradaA = 4'b0101;
+	 entradaB = 4'b0000;
+	 reloj = 1;
+	 reset = 0;
+	 #10;
+	 
+	 reloj = 0;
+	 #10;
+	 
+	 entradaA = 4'b1111;
+	 entradaB = 4'b1010;
+	 reloj = 1;
+	 reset = 0;
+
+	 #10;
+	 
+	 reset = 1;
+	 #10;
+	 
+	 	 
+  end
+  
+endmodule

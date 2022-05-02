@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock_50'
+Slack : -30.596
+TNS   : -602.604
+
+Type  : Slow 1100mV 85C Model Setup 'juego:game|PairsCounter[3]'
+Slack : -8.209
+TNS   : -248.281
+
+Type  : Slow 1100mV 85C Model Setup 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -2.665
+TNS   : -26.626
+
+Type  : Slow 1100mV 85C Model Setup 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -2.524
+TNS   : -31.585
+
+Type  : Slow 1100mV 85C Model Hold 'clock_50'
+Slack : -1.795
+TNS   : -21.618
+
+Type  : Slow 1100mV 85C Model Hold 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'juego:game|PairsCounter[3]'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.723
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_50'
+Slack : -0.642
+TNS   : -41.532
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -0.394
+TNS   : -7.019
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -0.394
+TNS   : -5.100
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'juego:game|PairsCounter[3]'
+Slack : -0.040
+TNS   : -0.304
+
+Type  : Slow 1100mV 0C Model Setup 'clock_50'
+Slack : -30.104
+TNS   : -583.478
+
+Type  : Slow 1100mV 0C Model Setup 'juego:game|PairsCounter[3]'
+Slack : -8.068
+TNS   : -248.468
+
+Type  : Slow 1100mV 0C Model Setup 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -2.600
+TNS   : -25.975
+
+Type  : Slow 1100mV 0C Model Setup 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -2.492
+TNS   : -31.202
+
+Type  : Slow 1100mV 0C Model Hold 'clock_50'
+Slack : -1.924
+TNS   : -24.117
+
+Type  : Slow 1100mV 0C Model Hold 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'juego:game|PairsCounter[3]'
+Slack : 0.538
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.701
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_50'
+Slack : -0.621
+TNS   : -44.700
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -0.394
+TNS   : -6.995
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -0.394
+TNS   : -5.130
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'juego:game|PairsCounter[3]'
+Slack : -0.070
+TNS   : -0.582
+
+Type  : Fast 1100mV 85C Model Setup 'clock_50'
+Slack : -17.240
+TNS   : -352.088
+
+Type  : Fast 1100mV 85C Model Setup 'juego:game|PairsCounter[3]'
+Slack : -4.672
+TNS   : -129.314
+
+Type  : Fast 1100mV 85C Model Setup 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -1.366
+TNS   : -13.650
+
+Type  : Fast 1100mV 85C Model Setup 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -1.129
+TNS   : -13.997
+
+Type  : Fast 1100mV 85C Model Hold 'clock_50'
+Slack : -0.932
+TNS   : -11.582
+
+Type  : Fast 1100mV 85C Model Hold 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'juego:game|PairsCounter[3]'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_50'
+Slack : -0.577
+TNS   : -7.452
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'juego:game|PairsCounter[3]'
+Slack : 0.009
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock_50'
+Slack : -15.578
+TNS   : -308.898
+
+Type  : Fast 1100mV 0C Model Setup 'juego:game|PairsCounter[3]'
+Slack : -4.226
+TNS   : -119.268
+
+Type  : Fast 1100mV 0C Model Setup 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : -1.191
+TNS   : -11.900
+
+Type  : Fast 1100mV 0C Model Setup 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : -1.003
+TNS   : -12.438
+
+Type  : Fast 1100mV 0C Model Hold 'clock_50'
+Slack : -1.013
+TNS   : -15.616
+
+Type  : Fast 1100mV 0C Model Hold 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'juego:game|PairsCounter[3]'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_50'
+Slack : -0.540
+TNS   : -7.439
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'controlador_vga:controlador|contador_horizontal:contador_horizontal|contador_parametrizable:contador|contador[0]'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'juego:game|PairsCounter[3]'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock25mh:clock|contador_parametrizable:divisor_clock|contador[0]'
+Slack : 0.143
+TNS   : 0.000
+
+------------------------------------------------------------

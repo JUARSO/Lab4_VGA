@@ -116,15 +116,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clock_50",
-					"strict" : false
-				},
-				{
 					"name" : "reset",
 					"strict" : false
 				},
 				{
-					"name" : "left",
+					"name" : "clock_50",
 					"strict" : false
 				},
 				{
@@ -132,7 +128,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "play",
+					"name" : "left",
 					"strict" : false
 				},
 				{
@@ -141,6 +137,10 @@
 				},
 				{
 					"name" : "down",
+					"strict" : false
+				},
+				{
+					"name" : "play",
 					"strict" : false
 				}
 			]

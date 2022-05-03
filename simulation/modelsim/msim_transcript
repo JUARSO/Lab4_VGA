@@ -11,63 +11,175 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4 {C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv}
+# vlog -vlog01compat -work work +incdir+C:/Users/arman/Music/Lab4_VGA/db {C:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:37:04 on Apr 29,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4" C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv 
+# Start time: 23:54:54 on May 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/arman/Music/Lab4_VGA/db" C:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v 
+# -- Compiling module mult_ol01
+# 
+# Top level modules:
+# 	mult_ol01
+# End time: 23:54:54 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/sincronizador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:55 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/sincronizador.sv 
+# -- Compiling module sincronizador
+# 
+# Top level modules:
+# 	sincronizador
+# End time: 23:54:55 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/main.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:55 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/main.sv 
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# End time: 23:54:56 on May 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:56 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv 
+# -- Compiling module generadorMatriz
+# ** Warning: C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv(4): (vlog-13314) Defaulting port 'MatrizJuego' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv(5): (vlog-13314) Defaulting port 'OpenCards' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	generadorMatriz
+# End time: 23:54:56 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:56 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv 
+# -- Compiling module controlador_vga
+# 
+# Top level modules:
+# 	controlador_vga
+# End time: 23:54:56 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/contador_vertical.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:56 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/contador_vertical.sv 
+# -- Compiling module contador_vertical
+# 
+# Top level modules:
+# 	contador_vertical
+# End time: 23:54:56 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:56 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv 
+# -- Compiling module contador_parametrizable
+# 
+# Top level modules:
+# 	contador_parametrizable
+# End time: 23:54:56 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:56 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv 
+# -- Compiling module contador_horizontal
+# 
+# Top level modules:
+# 	contador_horizontal
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:57 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv 
+# -- Compiling module comparador_mayor
+# 
+# Top level modules:
+# 	comparador_mayor
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/comparador_igual.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:57 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/comparador_igual.sv 
+# -- Compiling module comparador_igual
+# 
+# Top level modules:
+# 	comparador_igual
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/clock25mh.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:57 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/clock25mh.sv 
+# -- Compiling module clock25mh
+# 
+# Top level modules:
+# 	clock25mh
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/randomCard.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:54:57 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/randomCard.sv 
 # -- Compiling module randomCard
-# ** Warning: C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv(1): (vlog-13314) Defaulting port 'MatrizJuego' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/arman/Music/Lab4_VGA/randomCard.sv(1): (vlog-13314) Defaulting port 'MatrizJuego' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	randomCard
-# End time: 14:37:04 on Apr 29,2022, Elapsed time: 0:00:00
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4 {C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv}
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/juego.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:37:04 on Apr 29,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4" C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv 
+# Start time: 23:54:57 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/juego.sv 
 # -- Compiling module juego
 # 
 # Top level modules:
 # 	juego
-# End time: 14:37:04 on Apr 29,2022, Elapsed time: 0:00:00
+# End time: 23:54:57 on May 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4 {C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv}
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/win.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:37:04 on Apr 29,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4" C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv 
+# Start time: 23:54:58 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/win.sv 
 # -- Compiling module win
 # 
 # Top level modules:
 # 	win
-# End time: 14:37:04 on Apr 29,2022, Elapsed time: 0:00:00
+# End time: 23:54:58 on May 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4 {C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv}
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:37:04 on Apr 29,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4" C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv 
+# Start time: 23:54:58 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv 
 # -- Compiling module MatrizDeJuego
 # 
 # Top level modules:
 # 	MatrizDeJuego
-# End time: 14:37:05 on Apr 29,2022, Elapsed time: 0:00:01
+# End time: 23:54:58 on May 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4 {C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv}
+# vlog -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA {C:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:37:05 on Apr 29,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4" C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv 
-# -- Compiling module test_juego
+# Start time: 23:54:58 on May 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arman/Music/Lab4_VGA" C:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv 
+# -- Compiling module test_juegocompleto
 # 
 # Top level modules:
-# 	test_juego
-# End time: 14:37:05 on Apr 29,2022, Elapsed time: 0:00:00
+# 	test_juegocompleto
+# End time: 23:54:58 on May 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testJuego
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testJuego 
-# Start time: 14:37:05 on Apr 29,2022
-# ** Error: (vsim-3170) Could not find 'testJuego'.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Test_juego_completo
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Test_juego_completo 
+# Start time: 23:54:58 on May 02,2022
+# ** Error: (vsim-3170) Could not find 'Test_juego_completo'.
 #         Searched libraries:
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
@@ -77,24 +189,37 @@
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
-#             C:/Users/arman/Documents/1Semestre2022/Lab4/simulation/modelsim/rtl_work
-#             C:/Users/arman/Documents/1Semestre2022/Lab4/simulation/modelsim/rtl_work
+#             C:/Users/arman/Music/Lab4_VGA/simulation/modelsim/rtl_work
+#             C:/Users/arman/Music/Lab4_VGA/simulation/modelsim/rtl_work
 # Error loading design
 # Error: Error loading design
 #        Pausing macro execution
-# MACRO ./Lab4Taller_run_msim_rtl_verilog.do PAUSED at line 15
-vsim work.test_juego
-# vsim work.test_juego 
-# Start time: 14:37:05 on Apr 29,2022
+# MACRO ./Lab4Taller_run_msim_rtl_verilog.do PAUSED at line 26
+vsim work.test_juegocompleto
+# vsim work.test_juegocompleto 
+# Start time: 23:54:58 on May 02,2022
 # Loading sv_std.std
-# Loading work.test_juego
+# Loading work.test_juegocompleto
+# Loading work.main
+# Loading work.clock25mh
+# Loading work.contador_parametrizable
 # Loading work.juego
 # Loading work.MatrizDeJuego
 # Loading work.win
 # Loading work.randomCard
+# Loading work.controlador_vga
+# Loading work.contador_horizontal
+# Loading work.comparador_igual
+# Loading work.contador_vertical
+# Loading work.sincronizador
+# Loading work.comparador_mayor
+# Loading work.generadorMatriz
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'reset'. The port definition is at: C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /test_juegocompleto/Test/clock/divisor_clock File: C:/Users/arman/Music/Lab4_VGA/clock25mh.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'reset'. The port definition is at: C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /test_juegocompleto/Test/controlador File: C:/Users/arman/Music/Lab4_VGA/main.sv Line: 30
 add wave -r /*
-add wave -position 7  sim:/test_juego/MatrizJuego
-add wave -position 8  sim:/test_juego/OpenCards
+add log -r /*
 run -all
-# End time: 14:38:45 on Apr 29,2022, Elapsed time: 0:01:40
-# Errors: 1, Warnings: 0
+# End time: 23:55:59 on May 02,2022, Elapsed time: 0:01:01
+# Errors: 1, Warnings: 2

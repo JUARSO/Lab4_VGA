@@ -8,136 +8,421 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/arman/Documents/1Semestre2022/Lab4/simulation/modelsim
-vjuego
+Z0 dC:/Users/arman/Music/Lab4_VGA/simulation/modelsim
+vclock25mh
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1651264624
+Z2 !s110 1651557297
 !i10b 1
-!s100 LoMBla`eAAc9jKU;E>dUl3
+!s100 `2Z2DEAzSXoUCV9jLdOO41
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I3zXDaMTVQzmR<CDzSGB283
+IPI6iaaS6FF@6Wd2:A;S]J0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1651264593
-8C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv
-FC:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv
-!i122 1
-L0 1 323
-Z5 OV;L;2020.1;71
+Z5 w1651462568
+8C:/Users/arman/Music/Lab4_VGA/clock25mh.sv
+FC:/Users/arman/Music/Lab4_VGA/clock25mh.sv
+!i122 10
+Z6 L0 1 12
+Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1651264624.000000
-!s107 C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4|C:/Users/arman/Documents/1Semestre2022/Lab4/juego.sv|
+Z8 !s108 1651557297.000000
+!s107 C:/Users/arman/Music/Lab4_VGA/clock25mh.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/clock25mh.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/arman/Documents/1Semestre2022/Lab4
-Z9 tCvgOpt 0
-vMatrizDeJuego
+Z9 o-sv -work work
+Z10 !s92 -sv -work work +incdir+C:/Users/arman/Music/Lab4_VGA
+Z11 tCvgOpt 0
+vcomparador_igual
 R1
-Z10 !s110 1651264625
+R2
 !i10b 1
-!s100 =_@NBTkP;g:`90=TI4>Vf0
+!s100 glk<bb@z8^IX62hL3dL3K1
 R3
-I`8Wb1CVVg4>_[ECbhZPGO2
+Id:J8]hje:Sh;<>XhU1E3Z1
 R4
 S1
 R0
-w1651095820
-8C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv
-FC:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv
-!i122 3
-L0 1 33
 R5
+8C:/Users/arman/Music/Lab4_VGA/comparador_igual.sv
+FC:/Users/arman/Music/Lab4_VGA/comparador_igual.sv
+!i122 9
+Z12 L0 1 14
+R7
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4|C:/Users/arman/Documents/1Semestre2022/Lab4/MatrizDeJuego.sv|
-!i113 1
-R7
 R8
+!s107 C:/Users/arman/Music/Lab4_VGA/comparador_igual.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/comparador_igual.sv|
+!i113 1
 R9
+R10
+R11
+vcomparador_mayor
+R1
+R2
+!i10b 1
+!s100 DGi6J_@Ye]KA[6M?L[:W]3
+R3
+IYMG6o=gD3CE<F9U;UJ;0;0
+R4
+S1
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv
+FC:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv
+!i122 8
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/comparador_mayor.sv|
+!i113 1
+R9
+R10
+R11
+vcontador_horizontal
+R1
+R2
+!i10b 1
+!s100 zAg6ZS[3n<bmXQ=fcQbU63
+R3
+IQ60d`m0McFYYYgTadbOl91
+R4
+S1
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv
+FC:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv
+!i122 7
+L0 1 13
+R7
+r1
+!s85 0
+31
+Z13 !s108 1651557296.000000
+!s107 C:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/contador_horizontal.sv|
+!i113 1
+R9
+R10
+R11
+vcontador_parametrizable
+R1
+Z14 !s110 1651557296
+!i10b 1
+!s100 6W^LNPn2:O0kKz@SVe4iQ2
+R3
+IEHoIIGo2RoGz@84T=R76d0
+R4
+S1
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv
+FC:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv
+!i122 6
+L0 1 15
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/contador_parametrizable.sv|
+!i113 1
+R9
+R10
+R11
+vcontador_vertical
+R1
+R14
+!i10b 1
+!s100 H2HcKaH6ZMATG[RPe6kgM0
+R3
+IoNU[W]bcPG9Y8]I:GFDjj1
+R4
+S1
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/contador_vertical.sv
+FC:/Users/arman/Music/Lab4_VGA/contador_vertical.sv
+!i122 5
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/arman/Music/Lab4_VGA/contador_vertical.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/contador_vertical.sv|
+!i113 1
+R9
+R10
+R11
+vcontrolador_vga
+R1
+R14
+!i10b 1
+!s100 U9`CHJ8DI<k_@nP@H[7PU0
+R3
+IRa2DSZjAo7E1QQ0NGgBVa3
+R4
+S1
+R0
+w1651519708
+8C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv
+FC:/Users/arman/Music/Lab4_VGA/controlador_vga.sv
+!i122 4
+L0 1 29
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/controlador_vga.sv|
+!i113 1
+R9
+R10
+R11
+vgeneradorMatriz
+R1
+R14
+!i10b 1
+!s100 Bl`MEV@H5zSO4JPSS;BD:3
+R3
+Ik47EZX94Rn`QCfN7Y=lE03
+R4
+S1
+R0
+w1651556094
+8C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv
+FC:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv
+!i122 3
+L0 1 229
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/generadorMatriz.sv|
+!i113 1
+R9
+R10
+R11
+ngenerador@matriz
+vjuego
+R1
+R2
+!i10b 1
+!s100 >Ka2c@`W[@8W;^ao;cU;O1
+R3
+IN>Zf04O6EDMM]>>og1BJ:0
+R4
+S1
+R0
+w1651557137
+8C:/Users/arman/Music/Lab4_VGA/juego.sv
+FC:/Users/arman/Music/Lab4_VGA/juego.sv
+!i122 12
+L0 1 353
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/arman/Music/Lab4_VGA/juego.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/juego.sv|
+!i113 1
+R9
+R10
+R11
+vmain
+R1
+R14
+!i10b 1
+!s100 Cm4O7Qe[1ES2@D3QES;452
+R3
+I7o<OVQ4_4J9nO`g0Qc=1z1
+R4
+S1
+R0
+w1651522186
+8C:/Users/arman/Music/Lab4_VGA/main.sv
+FC:/Users/arman/Music/Lab4_VGA/main.sv
+!i122 2
+L0 1 46
+R7
+r1
+!s85 0
+31
+Z15 !s108 1651557295.000000
+!s107 C:/Users/arman/Music/Lab4_VGA/main.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/main.sv|
+!i113 1
+R9
+R10
+R11
+vMatrizDeJuego
+R1
+Z16 !s110 1651557298
+!i10b 1
+!s100 =_@NBTkP;g:`90=TI4>Vf0
+R3
+ICaabzPQ9CA=8J@SL0NlIC3
+R4
+S1
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv
+FC:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv
+!i122 14
+L0 1 33
+R7
+r1
+!s85 0
+31
+Z17 !s108 1651557298.000000
+!s107 C:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/MatrizDeJuego.sv|
+!i113 1
+R9
+R10
+R11
 n@matriz@de@juego
+vmult_ol01
+!s110 1651557294
+!i10b 1
+!s100 CX1Fkd0GickBhKkGC8Hk[3
+R3
+I9CVHGAc1``HQdOE]5mnlT1
+R4
+R0
+R5
+8C:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v
+FC:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v
+!i122 0
+L0 81 1649
+R7
+r1
+!s85 0
+31
+!s108 1651557294.000000
+!s107 C:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA/db|C:/Users/arman/Music/Lab4_VGA/db/mult_ol01.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/arman/Music/Lab4_VGA/db
+R11
 vrandomCard
 R1
 R2
 !i10b 1
 !s100 j7k[W7Za^e?V[l1Co=TZ;0
 R3
-IM0OCSD^^<oA^LDIISz9h<3
+I^n[_;@nVz@Y5maS9<h1iB1
 R4
 S1
 R0
-w1651078285
-8C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv
-FC:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv
-!i122 0
+Z18 w1651462569
+8C:/Users/arman/Music/Lab4_VGA/randomCard.sv
+FC:/Users/arman/Music/Lab4_VGA/randomCard.sv
+!i122 11
 L0 1 48
-R5
+R7
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4|C:/Users/arman/Documents/1Semestre2022/Lab4/randomCard.sv|
-!i113 1
-R7
 R8
+!s107 C:/Users/arman/Music/Lab4_VGA/randomCard.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/randomCard.sv|
+!i113 1
 R9
-nrandom@card
-vtest_juego
-R1
 R10
+R11
+nrandom@card
+vsincronizador
+R1
+!s110 1651557295
 !i10b 1
-!s100 z1L?O>@F^I9jTbKe=nZQ63
+!s100 naQOB8l7Ie8ELkLfV>E[_1
 R3
-IM>I00cmiGmm?FD`Qd]f_M3
+IzFz<Xg9@N[29JR?aPLZ471
 R4
 S1
 R0
-w1651261668
-8C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv
-FC:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv
-!i122 4
-L0 1 537
-R5
+R18
+8C:/Users/arman/Music/Lab4_VGA/sincronizador.sv
+FC:/Users/arman/Music/Lab4_VGA/sincronizador.sv
+!i122 1
+L0 1 30
+R7
 r1
 !s85 0
 31
-!s108 1651264625.000000
-!s107 C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4|C:/Users/arman/Documents/1Semestre2022/Lab4/test_juego.sv|
+R15
+!s107 C:/Users/arman/Music/Lab4_VGA/sincronizador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/sincronizador.sv|
 !i113 1
-R7
-R8
 R9
+R10
+R11
+vtest_juegocompleto
+R1
+R16
+!i10b 1
+!s100 _BCMPZiOA1BTZ]AkjdA9L3
+R3
+Id@Ng>5ENB:O`T3lJUiWKc1
+R4
+S1
+R0
+w1651516104
+8C:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv
+FC:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv
+!i122 15
+L0 1 539
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/test_juegocompleto.sv|
+!i113 1
+R9
+R10
+R11
 vwin
 R1
-R2
+R16
 !i10b 1
-!s100 >5[l1HGdYIE^f1dDRBc152
+!s100 YhWaad`fniJ0;WEQQe[]60
 R3
-IEK26@b4R:LEo;B1X_SJ842
+IofijDai@Nm83FG9ncH[F`0
 R4
 S1
 R0
-w1650906096
-8C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv
-FC:/Users/arman/Documents/1Semestre2022/Lab4/win.sv
-!i122 2
-L0 6 25
-R5
+w1651555505
+8C:/Users/arman/Music/Lab4_VGA/win.sv
+FC:/Users/arman/Music/Lab4_VGA/win.sv
+!i122 13
+L0 6 30
+R7
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Documents/1Semestre2022/Lab4|C:/Users/arman/Documents/1Semestre2022/Lab4/win.sv|
+R17
+!s107 C:/Users/arman/Music/Lab4_VGA/win.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/arman/Music/Lab4_VGA|C:/Users/arman/Music/Lab4_VGA/win.sv|
 !i113 1
-R7
-R8
 R9
+R10
+R11

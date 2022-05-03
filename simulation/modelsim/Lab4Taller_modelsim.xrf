@@ -1,4 +1,5 @@
 vendor_name = ModelSim
+<<<<<<< HEAD
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/test_juegocompleto.sv
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/sincronizador.sv
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/main.sv
@@ -25,6 +26,33 @@ source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/pruebaRandom.sv
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/test_juego.sv
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/MatrizEstadoCartas.sv
 source_file = 1, C:/Users/J_Sol/Desktop/Lab4/Lab4_VGA/db/Lab4Taller.cbx.xml
+=======
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/sincronizador.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/main.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/generadorMatriz.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/control_movimiento.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/controlador_vga.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/contador_vertical.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/contador_parametrizable.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/contador_horizontal.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/comparador_mayor.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/comparador_igual.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/clock25mh.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/randomCard.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/ContadorJ1.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/pruebaContador.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/juego.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/win.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/ContadorJ2.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/MatrizDeJuego.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/encontrarPareja.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/ContadorParejas.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/pruebaMatriz.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/pruebaRandom.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/test_juego.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/MatrizEstadoCartas.sv
+source_file = 1, C:/Users/arman/Pictures/Lab4_VGA/db/Lab4Taller.cbx.xml
+>>>>>>> main
 design_name = main
 instance = comp, \red_out[0]~output , red_out[0]~output, main, 1
 instance = comp, \red_out[1]~output , red_out[1]~output, main, 1
